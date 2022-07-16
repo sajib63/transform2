@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thor</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 400px;
+            
+
+        }
+        .thor{
+            margin-left: 1450px;
+            transition: transform 1s ease-out .3s;
+        }
+        .container:hover .thor{
+            transform: rotate(-80deg);
+            transition: transform 1s ease-out .8s;
+        }
+        
+        .strom{
+            margin-top: -200px;
+            transition: ease-in .8s;
+        }
+        .container:hover .strom{
+            transform: translate(1220px);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img class="thor" src="superman2.png" alt="">
+        <div class="strom">
+            <img src="jain-removebg-preview.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
